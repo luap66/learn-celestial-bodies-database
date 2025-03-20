@@ -93,5 +93,17 @@
   "workbench.statusBar.visible": false,
   "workbench.tips.enabled": false,
   "workbench.tree.renderIndentGuides": "none",
-  "zenMode.centerLayout": false
+  "zenMode.centerLayout": false,
+  "sqltools.connections": [
+    {
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 5432,
+      "askForPassword": true,
+      "driver": "PostgreSQL",
+      "database": "universe",
+      "name": "postgres",
+      "username": "myuser"
+    }
+  ]
 }
